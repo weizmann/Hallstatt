@@ -1,2 +1,2 @@
-# Hallstatt
-A quiet and beautiful village in the Salzkammergut, Austria. 
+# Ramsau
+A quiet and beautiful town in Berchtesgaden, German.
