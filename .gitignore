@@ -41,3 +41,6 @@ obj/
 .cproject
 .project
 .settings/
+
+#cmake
+*/cmake-build-debug/*
