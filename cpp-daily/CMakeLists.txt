@@ -9,7 +9,7 @@ if(Boost_FOUND)
     link_directories(${Boost_LIBRARY_DIRS})
 endif(Boost_FOUND)
 
-set(SOURCE_FILES boost/asio/buffer.cpp)
+set(SOURCE_FILES boost/asio/buffer.cpp boost/asio/echo/echo_server.cpp boost/asio/echo/echo_client.cpp)
 add_executable(cpp-daily ${SOURCE_FILES})
 
 set(USED_LIBS ${Boost_SYSTEM_LIBRARY} ${Boost_FILESYSTEM_LIBRARY})
